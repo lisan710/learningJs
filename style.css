@@ -1,0 +1,55 @@
+table {
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    font: normal 3em Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+
+tr {
+    height: 16.02vh;
+    background-color: #4e494d;
+}
+
+td {
+    width: 25vw;
+    border: 1px solid #4e494d;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#inputBox {
+    background-color: #4e494d;
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: #fff;
+    border: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.digitButton {
+    background-color: #807e80;
+}
+
+.digitButton:hover {
+    background-color: #a5a3a5;
+}
+
+.operatorButton {
+    background-color: #ff9e06;
+}
+
+.operatorButton:hover {
+    background-color: #ffc266;
+}
+
+.ACButton {
+    background-color: #656165;
+}
+
+.ACButton:hover {
+    background-color: #8a888a;
+}
